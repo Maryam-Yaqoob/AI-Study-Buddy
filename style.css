@@ -1,0 +1,81 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #81a3ad, #ACB6E5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: rgb(200, 187, 205);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    max-width: 700px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #0a8b94;
+  }
+  
+  textarea {
+    width: 95%;
+    height: 150px;
+    padding: 1rem;
+    margin: 1rem auto;
+    display: block;
+    border: 2px solid rgb(155, 134, 158);
+    border-radius: 10px;
+    resize: vertical;
+    font-size: 1rem;
+    background-color: rgb(201, 191, 181);
+    color:black;
+  }
+
+  #output {
+    text-align: left;
+    background: rgb(201, 191, 181);
+    padding: 1rem;
+    border-radius: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #3c0606;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    background: #648696;
+    color: rgb(21, 17, 17);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #4b88a7;
+  }
+  
+  
+  
+  em {
+    color: #c1e064;
+  }
+  

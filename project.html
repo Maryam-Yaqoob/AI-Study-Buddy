@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Study Buddy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📚 AI Study Buddy</h1>
+
+    <textarea id="inputText" placeholder="Paste your notes here..."></textarea>
+
+    <div class="buttons">
+      <button onclick="generateSummary()">Summarize</button>
+      <button onclick="generateFlashcards()">Create Flashcards</button>
+      <button onclick="generateQuiz()">Create Quiz</button>
+    </div>
+
+    <div id="output"></div>
+  </div>
+
+  <!-- Correct way to load JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
