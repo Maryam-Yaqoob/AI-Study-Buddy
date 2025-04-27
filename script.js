@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyBYTvodPxi1aCam6yLzdNd-WQJKGPTfToY";  
+const API_KEY = "AIzaSyCAY9UaPr3mwwa-1stunuEz54s_loGz_pU";  
 
 async function sendToGemini(prompt) {
   const response = await fetch(
