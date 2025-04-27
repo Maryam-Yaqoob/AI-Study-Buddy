@@ -1,3 +1,4 @@
+API_KEY = "1234abcd-56ef-78gh-90ij-klmnopqrstuv"
 async function sendToGemini(prompt) {
   const response = await fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`,
